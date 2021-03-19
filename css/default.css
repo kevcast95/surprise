@@ -76,7 +76,7 @@ a img {
 /* Main Content */
 .main {
 	width: 80%;
-	
+	position: relative;
 }
 
 .column {
