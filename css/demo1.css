@@ -49,6 +49,28 @@
 	margin: 2px;
 }
 
+.none {
+	display: none;
+}
+
+.prev_msg_play > h1 {
+	font-size: 39px;
+	font-weight: bold;
+	color: #72b890;
+}
+
+.btn_play {
+	width: 140px;
+	border: solid 2px #72b890;
+	padding: 10px;
+	box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
+	cursor: pointer;
+}
+
+.btn_play:active {
+	box-shadow: 2px 4px 4px rgb(0 0 0 / 0);
+}
+
 .img_text_contanier {
 	width: 100%;
 	height: 100%;

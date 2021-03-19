@@ -20,8 +20,17 @@
 			<!-- Top Navigation -->
 			
 			<div class="main clearfix">
-				<div class="bb-custom-wrapper">
-					<audio src="./img/sparkle.mp3" autoplay loop></audio>
+				<div id="prev_msg_play" class="prev_msg_play">
+					<h1>
+						Hay una sorpresa esparando por ti
+					</h1>
+					<span onclick="setPlay()" class="btn_play" >
+						¡Descubrela aquí!
+					</span>
+				</div>
+				<div id="story_book" class= "none">
+					
+					<audio id="sparkle" src="img/sparkle.mp3" loop></audio>
 					<h3>Inspirado por ti, <a>Y escrito para ti</a></h3>
 					<div id="bb-bookblock" class="bb-bookblock">
 						<div class="bb-item">
@@ -36,7 +45,7 @@
 										Gracias a mis padres y mucho más, gracias a Dios he sido un joven con pocas falencia, 
 										podría decirse que he tenido todo lo necesario hasta el día de hoy. 
 										Digo hasta hoy porque hoy estoy seguro que la necesito a ella en mi vida, y no porque me haga falta, 
-										sino porque quiero necesitarla, quiero que sea quien cuide mis días, mis tardes, mis noches y madrugada.
+										sino porque quiero necesitarla, quiero que sea quien cuide mis días, mis tardes, mis noches y madrugadas.
 									</p>
 								</div>
 							</div>
@@ -85,7 +94,7 @@
 										celoso de nosotros" 
 										y creo que eso se quedaría corto comparado con lo que inspira en mi corazón.
 										El amor tendrá envidia de que ella se lleve todos mis pensamientos, deseos, sueños. 
-										El amor no tendrá otra opción que vivirá en la sombra de su belleza, porque como ella no hay. 
+										El amor no tendrá otra opción más que vivir a la sombra de su belleza, porque como ella no hay. 
 									</p>
 								</div>
 							</div>
@@ -96,10 +105,10 @@
 								<div class="img_text_content" >
 									<p>
 										El amor no podrá disfrutar de un espacio más importante que ella dentro de mí, el amor hoy existe por y para ella.
-										No saben, de hecho nadie de imagina que pienso en ella y me elevó, que sueño con ella y ya no estoy en la realidad, 
+										No saben, de hecho nadie se imagina que pienso en ella y me elevó, que sueño con ella y ya no estoy en la realidad, 
 										que para mí no hay mayor premio que llevarla de la mano, ser su caballero con espada y armadura, y no porque no se 
 										valga por sí misma, sino porque solo me inspira a ser mi mejor versión y como ya dije darle todo de mí. Que bueno 
-										que ella es real, que bueno que puedo verla, sentirla, olerla, y más aún que pueda besarla.
+										que ella es real, que bueno que puedo verla, sentirla, olerla, y más aún, que pueda besarla.
 									</p>
 								</div>
 							</div>
@@ -216,5 +225,8 @@
 		<script>
 				Page.init();
 		</script>
+		<script src="./js/setPlay.js">
+		
+	</script>
 	</body>
 </html>
