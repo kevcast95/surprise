@@ -6,6 +6,6 @@ function setPlay() {
  msg.classList.remove("prev_msg_play")
  msg.classList.add("none")
  sparkle.currentTime = 25;
- sparkle.play()
+ //sparkle.play()
  console.log("hola brow");
 }
